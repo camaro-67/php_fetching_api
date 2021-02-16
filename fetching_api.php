@@ -18,5 +18,6 @@ $user_data = array_slice($user_data, 0, 9);
 // Traverse array and display user data
 foreach($user_data as $result) {
     var_dump($result->attributes->series);
+  //print_r($result->attributes->series); to completely fetching the data
 }
 ?>
