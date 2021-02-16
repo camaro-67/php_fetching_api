@@ -1,0 +1,50 @@
+array(1) {
+  [0]=>
+  object(stdClass)#1 (4) {
+    ["type"]=>
+    string(7) "Version"
+    ["id"]=>
+    string(1) "1"
+    ["attributes"]=>
+    object(stdClass)#2 (10) {
+      ["year"]=>
+      int(2019)
+      ["series"]=>
+      string(31) "Fast & Furious: 1/4 Mile Muscle"
+      ["color"]=>
+      string(6) "Yellow"
+      ["tampo"]=>
+      string(56) "Black stripe on front panels & hood; badges & taillights"
+      ["base_color"]=>
+      string(15) "Unpainted/Metal"
+      ["window_color"]=>
+      string(13) "Tinted (Gray)"
+      ["interior_color"]=>
+      string(5) "Black"
+      ["wheel_type"]=>
+      string(5) "RR5SP"
+      ["toy"]=>
+      string(5) "GBW87"
+      ["country"]=>
+      string(8) "Thailand"
+    }
+    ["relationships"]=>
+    object(stdClass)#6 (1) {
+      ["diecast"]=>
+      object(stdClass)#4 (2) {
+        ["data"]=>
+        object(stdClass)#3 (2) {
+          ["type"]=>
+          string(7) "Diecast"
+          ["id"]=>
+          string(1) "1"
+        }
+        ["links"]=>
+        object(stdClass)#5 (1) {
+          ["related"]=>
+          string(33) "http://127.0.0.1:8000/diecasts/1/"
+        }
+      }
+    }
+  }
+}
